@@ -1,0 +1,196 @@
+Microsoft Windows [Version 10.0.18363.2037]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Users\kollipar>git config --global user.name "Naveen Kollipara"
+
+C:\Users\kollipar>git config --global user.email "nagavenkatanaveen.kollipara@gmail.com"
+
+C:\Users\kollipar>cd Data_Analysis_with_Pandas
+
+C:\Users\kollipar\Data_Analysis_with_Pandas>git init
+Initialized empty Git repository in C:/Users/kollipar/Data_Analysis_with_Pandas/.git/
+
+C:\Users\kollipar\Data_Analysis_with_Pandas>git add *
+warning: LF will be replaced by CRLF in .ipynb_checkpoints/Fundamentals of Data Analysis Using Pandas-checkpoint.ipynb.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Fundamentals of Data Analysis Using Pandas.ipynb.
+The file will have its original line endings in your working directory
+
+C:\Users\kollipar\Data_Analysis_with_Pandas>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .ipynb_checkpoints/Fundamentals of Data Analysis Using Pandas-checkpoint.ipynb
+        new file:   Fundamentals of Data Analysis Using Pandas.ipynb
+
+
+C:\Users\kollipar\Data_Analysis_with_Pandas>git commit -m "Commiting New Files to Github Repository"
+[master (root-commit) f0c3782] Commiting New Files to Github Repository
+ 2 files changed, 15146 insertions(+)
+ create mode 100644 .ipynb_checkpoints/Fundamentals of Data Analysis Using Pandas-checkpoint.ipynb
+ create mode 100644 Fundamentals of Data Analysis Using Pandas.ipynb
+
+C:\Users\kollipar\Data_Analysis_with_Pandas>git remote add origin https://github.com/naveennvk93/Fundamental_Data_Analysis_Python.git
+
+C:\Users\kollipar\Data_Analysis_with_Pandas>git push origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 46.47 KiB | 7.74 MiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/naveennvk93/Fundamental_Data_Analysis_Python.git
+ * [new branch]      master -> master
+
+C:\Users\kollipar\Data_Analysis_with_Pandas>cd..
+
+C:\Users\kollipar>git clone https://github.com/naveennvk93/Fundamental_Data_Analysis_Python.git
+Cloning into 'Fundamental_Data_Analysis_Python'...
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (4/4), done.
+Receiving objects: 100% (4/4), 46.47 KiB | 587.00 KiB/s, done.ceiving objects: 100% (4/4)
+
+
+C:\Users\kollipar>cd Fundamentals_Data_Analysis_Python
+The system cannot find the path specified.
+
+C:\Users\kollipar>cd Fundamental_Data_Analysis_Python
+
+C:\Users\kollipar\Fundamental_Data_Analysis_Python>git add *
+warning: LF will be replaced by CRLF in Fundamentals of Data Analysis Using Pandas.ipynb.
+The file will have its original line endings in your working directory
+
+C:\Users\kollipar\Fundamental_Data_Analysis_Python>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   Fundamentals of Data Analysis Using Pandas.ipynb
+
+
+C:\Users\kollipar\Fundamental_Data_Analysis_Python>git commit -m "Made Chnages to Code File in EET TimeZone"
+[master d07a02b] Made Chnages to Code File in EET TimeZone
+ 1 file changed, 7 insertions(+), 57 deletions(-)
+
+C:\Users\kollipar\Fundamental_Data_Analysis_Python>git push origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 418 bytes | 418.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/naveennvk93/Fundamental_Data_Analysis_Python.git
+   f0c3782..d07a02b  master -> master
+
+C:\Users\kollipar\Fundamental_Data_Analysis_Python>cd..
+
+C:\Users\kollipar>cd Data_Analysis_with_Pandas
+
+C:\Users\kollipar\Data_Analysis_with_Pandas>git pull origin master
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (1/1), done.
+remote: Total 3 (delta 2), reused 3 (delta 2), pack-reused 0
+Unpacking objects: 100% (3/3), 398 bytes | 19.00 KiB/s, done.
+From https://github.com/naveennvk93/Fundamental_Data_Analysis_Python
+ * branch            master     -> FETCH_HEAD
+   f0c3782..d07a02b  master     -> origin/master
+Updating f0c3782..d07a02b
+Fast-forward
+ Fundamentals of Data Analysis Using Pandas.ipynb | 64 +++---------------------
+ 1 file changed, 7 insertions(+), 57 deletions(-)
+
+C:\Users\kollipar\Data_Analysis_with_Pandas>git add *
+warning: LF will be replaced by CRLF in Fundamentals of Data Analysis Using Pandas.ipynb.
+The file will have its original line endings in your working directory
+
+C:\Users\kollipar\Data_Analysis_with_Pandas>git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   Fundamentals of Data Analysis Using Pandas.ipynb
+
+
+C:\Users\kollipar\Data_Analysis_with_Pandas>git commit -m "Made Changes to Code File in the Night Shift"
+[master 2273a84] Made Changes to Code File in the Night Shift
+ 1 file changed, 109 insertions(+), 109 deletions(-)
+
+C:\Users\kollipar\Data_Analysis_with_Pandas>git push origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 10.29 KiB | 2.06 MiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/naveennvk93/Fundamental_Data_Analysis_Python.git
+   d07a02b..2273a84  master -> master
+
+C:\Users\kollipar\Data_Analysis_with_Pandas>cd..
+
+C:\Users\kollipar>cd Fundamentals_Data_Analysis_Python
+The system cannot find the path specified.
+
+C:\Users\kollipar>cd Fundamental_Data_Analysis_Python
+
+C:\Users\kollipar\Fundamental_Data_Analysis_Python>git pull origin master
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (1/1), done.
+remote: Total 3 (delta 2), reused 3 (delta 2), pack-reused 0
+Unpacking objects: 100% (3/3), 10.27 KiB | 584.00 KiB/s, done.
+From https://github.com/naveennvk93/Fundamental_Data_Analysis_Python
+ * branch            master     -> FETCH_HEAD
+   d07a02b..2273a84  master     -> origin/master
+Updating d07a02b..2273a84
+Fast-forward
+ Fundamentals of Data Analysis Using Pandas.ipynb | 218 +++++++++++------------
+ 1 file changed, 109 insertions(+), 109 deletions(-)
+
+C:\Users\kollipar\Fundamental_Data_Analysis_Python>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Test Markdown File.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\kollipar\Fundamental_Data_Analysis_Python>git add Test Markdown File.md
+fatal: pathspec 'Test' did not match any files
+
+C:\Users\kollipar\Fundamental_Data_Analysis_Python>git add "C:\Users\kollipar\Fundamental_Data_Analysis_Python\Test Markdown File.md"
+
+C:\Users\kollipar\Fundamental_Data_Analysis_Python>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Test Markdown File.md
+
+
+C:\Users\kollipar\Fundamental_Data_Analysis_Python>git commit -m "Adding Test File"
+[master bc33a61] Adding Test File
+ 1 file changed, 4 insertions(+)
+ create mode 100644 Test Markdown File.md
+
+C:\Users\kollipar\Fundamental_Data_Analysis_Python>git push origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 397 bytes | 397.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/naveennvk93/Fundamental_Data_Analysis_Python.git
+   2273a84..bc33a61  master -> master
+
+C:\Users\kollipar\Fundamental_Data_Analysis_Python>
